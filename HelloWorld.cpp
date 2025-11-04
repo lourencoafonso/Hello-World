@@ -10,6 +10,6 @@ int main() {
     //Input from User
     cout << "What's your name? "; cin >> name;
     //Display text in terminal
-    cout << "Hello " + name + "! Welcome to the world of c++!" << endl;
+    cout << "Hello " << name << "! Welcome to the world of c++!" << endl;
     return 0;
 }
